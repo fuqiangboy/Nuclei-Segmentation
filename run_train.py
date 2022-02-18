@@ -29,7 +29,7 @@ import matplotlib
 import numpy as np
 import torch
 from docopt import docopt
-from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 from torch.nn import DataParallel  # TODO: switch to DistributedDataParallel
 from torch.utils.data import DataLoader
 
